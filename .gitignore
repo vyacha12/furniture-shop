@@ -1,0 +1,148 @@
+# ================================
+# ДИПЛОМНЫЙ ПРОЕКТ: МЕБЕЛЬНЫЙ МАГАЗИН
+# ================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/           # Исключаем папку media (там картинки товаров)
+staticfiles/     # Собираемые статические файлы
+
+# Virtual Environment
+venv/
+env/
+VIRTUAL_ENV/
+.venv
+
+# Node.js / React / Vite
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.lock-wscript
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Vite
+dist/
+dist-ssr/
+*.local
+
+# Реакт
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Исходники
+*.tsbuildinfo
+next-env.d.ts
+
+# Продакшн
+.cache/
+.turbo/
+
+# 3D модели (если будут исходники)
+*.blend
+*.fbx
+*.obj
+*.mtl
+
+# MySQL (локальные дампы, кроме бекапов)
+*.sql
+!backups/db/*.sql.gz  # Исключение: бэкапы БД сохраняем
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.temp
+.cache/
+
+# Логи
+*.log
+logs/
+
+# Операционные системы
+*.pid
+*.seed
+*.pid.lock
+
+# Бэкапы (кроме наших системных)
+*.backup
+*.bak
+*.old
+*_old
+*save
+
+# Файлы настроек (кроме примеров)
+config.yaml
+config.json
+secrets/
+.env
+!*.example
+!*.sample
+
+# Папки проекта (которые создаются автоматически)
+__pycache__/
+migrations/__pycache__/
+*.pyc
+
+# Миграции БД (НЕ исключаем - они важны!)
+# !migrations/
+# !migrations/*.py
+# !*/migrations/*.py
+
+# Тестовые данные
+test.db
+*.test
+*.spec.js
+coverage/
+.nyc_output/
+
+# Документация
+docs/_build/
+.sphinx_cache/
